@@ -1,0 +1,64 @@
+.assignments-page {
+  background-color: #d8e1e8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.assignments-container {
+  max-width: 1000px;
+  width: 100%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.assignments-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.assignments-header h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.filter-btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filter-btn:hover {
+  background-color: #eee;
+}
+
+.assignment-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c4f0ff;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+}
+
+.assignment-info p {
+  margin: 4px 0 0;
+  color: #333;
+}
+
+.due-date {
+  color: red;
+  font-weight: bold;
+  white-space: nowrap;
+}

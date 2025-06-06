@@ -12,6 +12,9 @@ import Attendance from './frontend/Student/Attendance';
 import GradesPage from './frontend/Student/GradesPage';
 import BookLibrary from './frontend/Student/BookLibrary';
 import BookRecommendations from './frontend/Student/BookRecommendations';
+import Header from './frontend/Student/Header';
+import Skills from './frontend/Student/Skills';
+import SkillProgressDetail from './frontend/Student/SkillProgressDetail';
 // import Header from './frontend/Student/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -26,9 +29,10 @@ root.render(
     {/* <Assignments /> */}
     {/* <Attendance /> */}
     {/* <GradesPage /> */}
-    <BookLibrary />
-    {/* <BookRecommendations /> */}
-  
+    {/* <BookLibrary /> */}
+    <BookRecommendations />
+    {/* <Skills /> */}
+    {/* <SkillProgressDetail /> */}
   </React.StrictMode>
 );
 

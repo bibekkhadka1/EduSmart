@@ -2,8 +2,8 @@
   display: flex;
   justify-content: flex-end; /* Align content to the right */
   align-items: center;
-  background-color: #e6eef5;
-  padding: 15px 24px;
+  background-color: #0d133d;
+  padding: 23px 24px;
   border-bottom: 1px solid #ccc;
 }
 
@@ -31,6 +31,7 @@
   align-items: center;
   gap: 6px;
   font-size: 14px;
+  color:white;
 }
 
 .user-icon {

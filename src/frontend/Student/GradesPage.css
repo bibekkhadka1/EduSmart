@@ -1,17 +1,16 @@
 .grades-page {
-  background-color: #dbe3ea;
+  background-color: #f2f7fd;
   padding: 2rem;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   box-sizing: border-box;
-  margin-left: 250px; /* Leave space for sidebar */
 }
 
 .grades-container {
   background-color: white;
-  border-radius: 16px;
+  border-radius: 15px;
   padding: 2rem;
   max-width: 1000px;
   width: 100%;

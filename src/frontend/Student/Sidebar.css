@@ -1,17 +1,18 @@
-.Sidebar {
-  width: 250px;
-  background-color: #f8f9fa;
+.sidebar {
+  width: 200px;
+  background-color: #0d133d;
   padding: 20px;
   height: 100vh;
   overflow-y: auto;
   font-family: Arial, sans-serif;
-  color: #333;
+  color: hsl(0, 7%, 92%);
 }
 
 .logo {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  margin-top: 18px;
 }
 
 .logo-circle {
@@ -20,7 +21,7 @@
   background-color: #4a90e2;
   border-radius: 50%;
   color: white;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 24px;
   display: flex;
   justify-content: center;
@@ -28,12 +29,19 @@
   margin-right: 10px;
 }
 
+.logo-divider {
+  height: 1px;
+  background-color: #eaeaed;
+  margin: 4px 0 12px;
+  border: none;
+}
+
 .section-title {
-  font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  font-weight: normal;
+  margin-top: 12px;
+  margin-bottom: 5px;
   font-size: 14px;
-  color: #555;
+  color: #7d7c7c;
 }
 
 .menu {
@@ -43,21 +51,56 @@
 }
 
 .menu li {
+  padding: 0; /* reset padding since button will have it */
+}
+
+/* .menu li button {
   display: flex;
   align-items: center;
-  gap: 10px;      /* space between icon and text */
+  gap: 10px;
+  width: 100%;
   padding: 10px 5px;
-  cursor: pointer;
+  background: none;
+  border: none;
   font-size: 14px;
-  color: #333;
+  color: #f4eeee;
+  cursor: pointer;
   border-radius: 4px;
+  text-align: left;
+  transition: background-color 0.2s ease;
 }
 
-.menu li:hover, .menu li.active {
-  background-color: #e2e6ea;
+.menu li button:hover,
+.menu li.active button {
+  background-color: #166ec5;
 }
 
-.menu li svg {
-  font-size: 20px; /* icon size */
-  color: #4a90e2;
+.menu li button svg {
+  font-size: 20px;
+  color: #eceef0;
+} */
+
+.menu li button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 5px;
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #f4eeee;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: left;
+  transition: background-color 0.2s ease;
+}
+
+.menu li button:hover {
+  background-color: #166ec5;
+}
+
+.menu li.active button {
+  background-color: #3f00ff;
+  font-weight: bold;
 }
